@@ -1,0 +1,4 @@
+reposity: RJS101x_Assignment1_toannnfx11224-funix.edu.vn
+git remote add origin https://github.com/toannnfx11224/RJS101x_Assignment1_toannnfx11224-funix.edu.vn.git
+git branch -M main
+git push -u origin main

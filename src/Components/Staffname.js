@@ -6,7 +6,7 @@ import {  CardTitle,CardText, Card } from "reactstrap";
 import Moment from 'moment';
 class Staffname extends Component {
     constructor(props){
-        super(props)
+        super(props);
         this.state = {
             selectedStaff : null,
          }
@@ -43,7 +43,9 @@ class Staffname extends Component {
             )
         }
     }
-    
+    componentDidMount(){
+        console.log("start")
+    }
     render(){   
         
         const Name = this.props.staffs.map(staff => { 
